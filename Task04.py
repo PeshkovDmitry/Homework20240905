@@ -6,11 +6,19 @@ class GameScore:
     def __init__(self):
         self._current_score = 0
 
-        if score > 0:
-            if score > 1000:
-                raise ScoreLimitExceededError
-            self._current_score += score
+    def add_score(self, num: int):
+        if self._current_score + num > 1000:
+            raise ScoreLimitExceededError
+        self._current_score += num
 
-        self._current_score -= score
+    def subtract_score(self, num: int):
+        if self._current_score - num < 0:
+            raise ValueError("Счет не может быть отрицательным")
+        self._current_score -= num
 
+try:
     game_score = GameScore()
+except ValueError as e:
+    print(e)
+except ScoreLimitExceededError as e:
+    print(e)
