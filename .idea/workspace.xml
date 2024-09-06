@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="305263c9-f139-4120-8e00-397f8dd71b21" name="Changes" comment="Решено задание 3">
+    <list default="true" id="305263c9-f139-4120-8e00-397f8dd71b21" name="Changes" comment="Решено задание 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Python.Task01.executor": "Run",
     "Python.Task02.executor": "Run",
     "Python.Task03.executor": "Run",
+    "Python.Task04.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/dmitry/PycharmProjects/Homework20240905/Task01"
@@ -101,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725610194125</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Решено задание 4">
+      <option name="closed" value="true" />
+      <created>1725616179413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725616179413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +118,7 @@
     <MESSAGE value="Решено задание 1" />
     <MESSAGE value="Решено задание 2" />
     <MESSAGE value="Решено задание 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание 3" />
+    <MESSAGE value="Решено задание 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание 4" />
   </component>
 </project>
